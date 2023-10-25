@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/Nivo-Slider-jQuery-master/themes/default/default.css">
+    <link rel="stylesheet" href="/lib/Nivo-Slider-jQuery-master/nivo-slider.css">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Teste</title>
+</head>
+<body>
+    
+    <header> <!--faixa inicial com telefones-->
+            <p class="num1">11 1234-1234</p>
+            <p class="num2">11 1234-1234</p>
+    </header>
+
+    <section class="container__menu"> <!--menu do site-->
+        <h1>IMAGEM</h1>
+        <nav>
+            <ul class="navbar">
+                <li class="nav-link"><a class="nav-txt" href="">HOME</a></li>
+                <li class="nav-link empresa"><a class="nav-txt" href="">EMPRESA</a>
+                    <ul class="dropdown-menu">
+                        <li class="sub-li"><a class="sub-txt" href="">SUBMENU 1</a></li>
+                        <li class="sub-li"><a class="sub-txt" href="">SUBMENU 1</a></li>
+                        <li class="sub-li"><a class="sub-txt" href="">SUBMENU 1</a></li>
+                        <li class="sub-li final"><a class="sub-txt" href="">SUBMENU 1</a>
+                            <ul class="dropdown2">
+                                <li class="sub-li2"><a class="sub-txt2" href="">SUBMENU 2</a></li>
+                                <li class="sub-li2"><a class="sub-txt2" href="">SUBMENU 2</a></li>
+                                <li class="sub-li2"><a class="sub-txt2" href="">SUBMENU 2</a></li>
+                                <li class="sub-li2"><a class="sub-txt2" href="">SUBMENU 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-link"><a class="nav-txt" href="">CLIENTES</a></li>
+                <li class="nav-link"><a class="nav-txt" href="">CONTATO</a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="container__principal"> <!--container principal-->
+        <div id="slider" class="nivoSlider">
+            <img src="/Assets/img/banner1.png" alt="promocao"/>
+            <img src="/Assets/img/banner2.png" alt="ilustracao"/>
+            <img src="/Assets/img/banner3.png" alt="promocao_roupas"/>
+            <img src="/Assets/img/banner4.png" alt="promocao_celular"/>
+        </div>            
+    </section>
+
+    <section class="container__teste"> <!--container secundario-->
+        <div class="container__descricao">
+            <h2 class="pg_titulo">TESTE DE HTML E CSS</h2>
+            <p class="pg_principal">questões de avaliação:</p>
+            <ul class="pg_lista">
+                <li>Organização do código (quanto mais limpo melhor);</li>
+                <li>Nível de detalhismo (quanto mais idêntico melhor);</li>
+                <li>Tempo de desenvolvimento (seja sincero ao enviar o tempo gasto);</li>
+            </ul>
+            <p class="pg_final">Obrigado e boa sorte!</p>
+        </div>
+        <img src="/Assets/img/image_promo.png" alt="imagem_promo">
+       </section>
+
+    <section class="container__destaque"> <!--container de destaques-->
+        <h2>BOXES DE DESTAQUE</h2>
+        <div class="container__imagens">
+            <div class="img__destaque">
+                <img src="/Assets/img/camiseta1.png" alt="camiseta_marrom">
+                <p><a href="">Camiseta Marrom</a></p>
+            </div>
+            <div class="img__destaque">
+                <img src="/Assets/img/ilustration2.png" alt="ilustacao2">
+                <p><a href="">Nova Coleção</a></p>
+            </div>
+            <div class="img__destaque">
+                <img src="/Assets/img/ilustration3.png" alt="ilustracao3">
+                <p><a href="">Viva o novo</a></p>
+            </div>
+            <div class="img__destaque">
+                <img src="/Assets/img/ilustration4.png" alt="ilustracao4">
+                <p><a href="">Promoção de verão</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container__final"> <!--rodapé-->
+        <nav>
+            <ul class="navbar__footer">
+                <li><a href="">HOME</a></li>
+                <li><a href="">EMPRESA</a></li>
+                <li><a href="">CLIENTES</a></li>
+                <li><a href="">CONTATO</a></li>
+            </ul>
+        </nav>
+        <div class="text__footer">
+            <h1>RODAPE</h1>
+        </div>
+        <div class="vazio"></div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="/lib/Nivo-Slider-jQuery-master/jquery.nivo.slider.js"></script>
+    <script src="js/function.js"></script>
+
+</body>
+</html>
